@@ -53,6 +53,14 @@ const links = [
     color: "group-hover:text-green-500",
     bgHov: "group-hover:bg-green-500/10",
   },
+  {
+    title: "E-poçt",
+    description: "Bizə yazın",
+    icon: Mail,
+    href: "mailto:contheroncom@gmail.com",
+    color: "group-hover:text-amber-500",
+    bgHov: "group-hover:bg-amber-500/10",
+  },
 ];
 
 export default function Home() {
@@ -145,7 +153,7 @@ export default function Home() {
 
                 <div
                   className={cn(
-                    "flex h-14 w-14 shrink-0 items-center justify-center rounded-sm bg-zinc-800/80 shadow-inner ring-1 ring-white/5 transition-all duration-300",
+                    "flex h-14 w-14 shrink-0 items-center justify-center rounded-sm bg-zinc-800/80 shadow-inner ring-1 ring-white/5 transition-all duration-300 text-zinc-300",
                     "group-hover:scale-110",
                     link.color
                   )}
