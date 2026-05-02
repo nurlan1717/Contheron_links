@@ -176,7 +176,7 @@ export default function Home() {
              Ağıllı sensorlar və AI alqoritmləri ilə müəssisələrin təhlükəsizliyini təmin edirik.
            </p>
            <a 
-             href="mailto:contact@contheron.com"
+             href="mailto:contheroncom@gmail.com"
              className="group flex items-center gap-2 px-6 py-2.5 rounded-sm bg-zinc-900 border-2 border-zinc-800 hover:border-amber-500 text-sm font-bold text-zinc-300 hover:text-amber-400 transition-all duration-300 shadow-lg"
            >
               <Mail className="h-4 w-4 group-hover:scale-110 transition-transform duration-300" />
